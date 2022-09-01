@@ -1,0 +1,48 @@
+{
+  "Create redux toolkit slice based on Fivvy style": {
+    "prefix": "fivvy-slice",
+    "body": [
+      "import { createSlice } from '@reduxjs/toolkit'",
+      "import type { PayloadAction } from '@reduxjs/toolkit'",
+      "",
+      "export interface CounterState {",
+      "  counter: number",
+      "}",
+      "",
+      "export const ${1:fivvy}Slice = createSlice({",
+      "  name: '${1:fivvy}',",
+      "  initialState: <CounterState>{",
+      "    counter: 10,",
+      "  },",
+      "  reducers: {",
+      "    increment: (state, action: PayloadAction<number>) => {",
+      "      state.counter += 1;",
+      "    },",
+      "  },",
+      "});",
+      "",
+      "export const { increment } = ${1:fivvy}Slice.actions;"
+    ],
+    "description": "Create redux toolkit slice based on fivvy style"
+  },
+
+  "Create redux toolkit API based on Fivvy style": {
+    "prefix": "fivvy-api",
+    "body": [
+      "import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';",
+      "",
+      "export const ${1:Fivvy}API = createApi({",
+      "  reducerPath: '${1:Fivvy}API',",
+      "  baseQuery: fetchBaseQuery({ baseUrl: 'https://example.com/api/v2/' }),",
+      "  endpoints: builder => ({",
+      "    get${1:Fivvy}ByName: builder.query({",
+      "      query: query => `endpoint/${query}`",
+      "    })",
+      "  })",
+      "});",
+      "",
+      "export const { useGet${1:Fivvy}ByNameQuery } = ${1:Fivvy}API;"
+    ],
+    "description": "Create redux toolkit API based on fivvy style"
+  }
+}
