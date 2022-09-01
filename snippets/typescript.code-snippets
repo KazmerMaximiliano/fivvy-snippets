@@ -36,7 +36,7 @@
       "  baseQuery: fetchBaseQuery({ baseUrl: 'https://example.com/api/v2/' }),",
       "  endpoints: builder => ({",
       "    get${1:Fivvy}ByName: builder.query({",
-      "      query: query => `endpoint/${query}`",
+      "      query: () => 'endpoint'",
       "    })",
       "  })",
       "});",
