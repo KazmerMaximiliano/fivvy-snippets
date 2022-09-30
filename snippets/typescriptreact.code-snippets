@@ -50,6 +50,79 @@
     ],
     "description": "Create Fivvy Component"
   },
+
+  "Create Fivvy Imports Region Snippet": {
+    "prefix": "fivvy-import-region",
+    "body": ["/* #region IMPORTS */", "/* #endregion */"],
+    "description": "Create Fivvy Imports Region Snippet"
+  },
+
+  "Create Fivvy Types Region Snippet": {
+    "prefix": "fivvy-types-region",
+    "body": ["/* #region TYPES */", "/* #endregion */"],
+    "description": "Create Fivvy Types Region Snippet"
+  },
+
+  "Create Fivvy Styled Component Region Snippet": {
+    "prefix": "fivvy-styled-region",
+    "body": ["/* #region STYLED COMPONENTS */", "/* #endregion */"],
+    "description": "Create Fivvy Styled Component Region Snippet"
+  },
+
+  "Create Fivvy Hooks Region Snippet": {
+    "prefix": "fivvy-hooks-region",
+    "body": ["/* #region HOOKS */", "/* #endregion */"],
+    "description": "Create Fivvy Hooks Region Snippet"
+  },
+
+  "Create Fivvy States Region Snippet": {
+    "prefix": "fivvy-states-region",
+    "body": ["/* #region STATES */", "/* #endregion */"],
+    "description": "Create Fivvy States Region Snippet"
+  },
+
+  "Create Fivvy Refs Region Snippet": {
+    "prefix": "fivvy-refs-region",
+    "body": ["/* #region REFS */", "/* #endregion */"],
+    "description": "Create Fivvy Refs Region Snippet"
+  },
+
+  "Create Fivvy Reducers Region Snippet": {
+    "prefix": "fivvy-reducers-region",
+    "body": ["/* #region REDUCERS */", "/* #endregion */"],
+    "description": "Create Fivvy Reducers Region Snippet"
+  },
+
+  "Create Fivvy Actions Region Snippet": {
+    "prefix": "fivvy-actions-region",
+    "body": ["/* #region ACTIONS */", "/* #endregion */"],
+    "description": "Create Fivvy Actions Region Snippet"
+  },
+
+  "Create Fivvy Methods Region Snippet": {
+    "prefix": "fivvy-methods-region",
+    "body": ["/* #region METHODS */", "/* #endregion */"],
+    "description": "Create Fivvy Methods Region Snippet"
+  },
+
+  "Create Fivvy Effects Region Snippet": {
+    "prefix": "fivvy-effects-region",
+    "body": ["/* #region EFFECTS */", "/* #endregion */"],
+    "description": "Create Fivvy Effects Region Snippet"
+  },
+
+  "Create Fivvy Render Region Snippet": {
+    "prefix": "fivvy-render-region",
+    "body": ["/* #region RENDER */", "/* #endregion */"],
+    "description": "Create Fivvy Render Region Snippet"
+  },
+
+  "Create Fivvy Custom Region Snippet": {
+    "prefix": "fivvy-custom-region",
+    "body": ["/* #region ${1:REGION} */", "/* #endregion */"],
+    "description": "Create Fivvy Custom Region Snippet"
+  },
+
   "Create Fivvy simple component": {
     "prefix": "fivvy-simple-component",
     "body": [
