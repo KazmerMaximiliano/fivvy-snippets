@@ -44,5 +44,41 @@
       "export const { useGet${1:Fivvy}ByNameQuery } = ${1:Fivvy}API;"
     ],
     "description": "Create redux toolkit API based on fivvy style"
+  },
+
+  "Create Fivvy styled component": {
+    "prefix": "fivvy-styled-component",
+    "body": [
+      "const ${1:FivvyStyleComponent} = styled(View)`",
+      "  /* Where and how the box is placed */",
+      "  display: ;",
+      "  position: ;",
+      "  float: ;",
+      "  clear: ;",
+      "",
+      "  /* Can the box be seen? */",
+      "  visibility: ;",
+      "  opacity: ;",
+      "  z-index: ;",
+      "",
+      "  /* Layers of the box model */",
+      "  margin: ;",
+      "  outline: ;",
+      "  border: ;",
+      "  background: ;",
+      "  padding: ;",
+      "",
+      "  /* Content dimensions and scrollbars */",
+      "  height: ;",
+      "  width: ;",
+      "  overflow: ;",
+      "",
+      "  /* Text */",
+      "  color: ;",
+      "  text: ;",
+      "  font: ;",
+      "`;"
+    ],
+    "description": "Create Fivvy styled Component"
   }
 }
